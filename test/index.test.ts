@@ -10,6 +10,7 @@ describe('test unit', () => {
 
     // global.window.pathname in jest always return /
     expect(mockWin.location.pathname).toEqual('/about');
+    expect(mockWin.location.origin).toEqual('http://localhost')
     expect(mockWin.USER_DEFINED).toEqual('hello');
   });
 
