@@ -39,7 +39,6 @@ global.self = global.window;
 global.document = global.window.document;
 // in client env `window.context` is { userInfo: 'hello' }
 ```
-`
 
 - `url` default is `http://localhost`, you also change the `location.pathname` use `http://localhost/bar`
 - `html` init html template, default is `<body><div id="root"></div></body>`
