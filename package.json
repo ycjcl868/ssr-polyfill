@@ -4,7 +4,7 @@
   "description": "fake browser runtime environment in server-side render.",
   "main": "lib/index.js",
   "scripts": {
-    "build": "tsc --target ES5",
+    "build": "father-build",
     "test": "npm run build && umi-test --coverage",
     "prepublishOnly": "npm run test"
   },
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/ycjcl868/ssr-polyfill#readme",
   "dependencies": {
-    "jsdom": "^15.1.1",
+    "jsdom": "~15.1.1",
     "lodash.merge": "^4.6.2"
   },
   "devDependencies": {
@@ -28,6 +28,7 @@
     "@types/node": "^12.6.9",
     "@umijs/fabric": "^1.1.9",
     "eslint": "^5.16.0",
+    "father-build": "^1.17.2",
     "typescript": "^3.5.3",
     "umi-test": "^1.7.1"
   }
