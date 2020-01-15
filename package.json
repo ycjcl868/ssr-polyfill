@@ -6,7 +6,7 @@
   "scripts": {
     "build": "father-build",
     "test": "npm run build && umi-test --coverage",
-    "prepublishOnly": "npm run test"
+    "prepublishOnly": "npm run test && np --yolo --no-publish"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,7 @@
     "eslint": "^5.16.0",
     "father-build": "^1.17.2",
     "typescript": "^3.5.3",
+    "np": "^5.0.1",
     "umi-test": "^1.7.1"
   }
 }
